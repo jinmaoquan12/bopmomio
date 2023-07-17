@@ -3,14 +3,14 @@
   <title>Hexo</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://jinmaoquan12.github.io/bopmomio/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://jinmaoquan12.github.io/bopmomio/"/>
   <updated>1985-10-26T08:15:00.000Z</updated>
-  <id>http://example.com/</id>
+  <id>https://jinmaoquan12.github.io/bopmomio/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>bopmomio</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2023/07/17/hello-world/"/>
-    <id>http://example.com/2023/07/17/hello-world/</id>
+    <link href="https://jinmaoquan12.github.io/bopmomio/2023/07/17/hello-world/"/>
+    <id>https://jinmaoquan12.github.io/bopmomio/2023/07/17/hello-world/</id>
     <published>2023-07-17T12:13:49.615Z</published>
     <updated>1985-10-26T08:15:00.000Z</updated>
     
