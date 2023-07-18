@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jinmaoquan12.github.io/bopmomio/2023/07/18/%E6%B5%8B%E8%AF%95/</loc>
+    
+    <lastmod>2023-07-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jinmaoquan12.github.io/bopmomio/2023/07/17/hello-world/</loc>
     
     <lastmod>1985-10-26</lastmod>
@@ -13,7 +22,7 @@
 
   <url>
     <loc>https://jinmaoquan12.github.io/bopmomio</loc>
-    <lastmod>2023-07-17</lastmod>
+    <lastmod>2023-07-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
