@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>爆破猫喵のblog</title>
   
-  
+  <subtitle>(～￣▽￣)～</subtitle>
   <link href="https://jinmaoquan12.github.io/bopmomio/atom.xml" rel="self"/>
   
   <link href="https://jinmaoquan12.github.io/bopmomio/"/>
@@ -10,7 +10,7 @@
   <id>https://jinmaoquan12.github.io/bopmomio/</id>
   
   <author>
-    <name>bopmomio</name>
+    <name>爆破猫喵</name>
     
   </author>
   
