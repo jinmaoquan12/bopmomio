@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://jinmaoquan12.github.io/bopmomio/tags/%E5%8E%9F%E7%A5%9E/index.html</loc>
+    <loc>https://jinmaoquan12.github.io/bopmomio/Gallery/index.html</loc>
     
-    <lastmod>2023-07-29</lastmod>
+    <lastmod>2023-07-30</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +13,7 @@
   <url>
     <loc>https://jinmaoquan12.github.io/bopmomio/categories/index.html</loc>
     
-    <lastmod>2023-07-29</lastmod>
+    <lastmod>2023-07-30</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -22,7 +22,16 @@
   <url>
     <loc>https://jinmaoquan12.github.io/bopmomio/tags/index.html</loc>
     
-    <lastmod>2023-07-29</lastmod>
+    <lastmod>2023-07-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jinmaoquan12.github.io/bopmomio/2023/07/30/%E6%9C%88%E5%A4%9C/</loc>
+    
+    <lastmod>2023-07-30</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -31,16 +40,16 @@
   <url>
     <loc>https://jinmaoquan12.github.io/bopmomio/Gallery/%E5%8E%9F%E7%A5%9E/index.html</loc>
     
-    <lastmod>2023-07-22</lastmod>
+    <lastmod>2023-07-30</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://jinmaoquan12.github.io/bopmomio/Gallery/index.html</loc>
+    <loc>https://jinmaoquan12.github.io/bopmomio/tags/%E5%8E%9F%E7%A5%9E/index.html</loc>
     
-    <lastmod>2023-07-21</lastmod>
+    <lastmod>2023-07-29</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -67,12 +76,26 @@
 
   <url>
     <loc>https://jinmaoquan12.github.io/bopmomio</loc>
-    <lastmod>2023-07-29</lastmod>
+    <lastmod>2023-07-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
+  <url>
+    <loc>https://jinmaoquan12.github.io/bopmomio/tags/%E6%97%A7%E4%BA%8B%E9%87%8D%E6%8F%90/</loc>
+    <lastmod>2023-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>https://jinmaoquan12.github.io/bopmomio/categories/%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2023-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>
