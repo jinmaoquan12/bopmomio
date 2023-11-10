@@ -1,0 +1,87 @@
+:root {
+    --mio-theme-op: #4259ef23;
+    --mio-white: #fff;
+    --mio-black: #000;
+    --mio-none: rgba(0, 0, 0, 0);
+    --mio-gray: #999999;
+    --mio-yellow: #ffc93e;
+    --mio-border-radius: 8px;
+    --mio-main: var(--mio-theme);
+    --mio-main-op: var(--mio-theme-op);
+    --mio-shadow-theme: 0 8px 12px -3px var(--mio-theme-op);
+    --mio-shadow-main: 0 8px 12px -3px var(--mio-main-op);
+    --mio-shadow-blue: 0 8px 12px -3px rgba(40, 109, 234, 0.2);
+    --mio-shadow-white: 0 8px 12px -3px rgba(255, 255, 255, 0.2);
+    --mio-shadow-black: 0 0 12px 4px rgba(0, 0, 0, 0.05);
+    --mio-shadow-yellow: 0px 38px 77px -26px rgba(255, 201, 62, 0.12);
+    --mio-shadow-red: 0 8px 12px -3px #ee7d7936;
+    --mio-shadow-green: 0 8px 12px -3px #87ee7936;
+    --mio-shadow-border: 0 8px 16px -4px #2c2d300c;
+    --mio-logo-color: linear-gradient(215deg, #4584ff 30%, #ff7676 70%);
+    --style-border: 1px solid var(--mio-card-border);
+    --mio-blue-main: #3b70fc;
+    --style-border-hover: 1px solid var(--mio-main);
+    --style-border-dashed: 1px dashed var(--mio-theme-op);
+    --style-border-avatar: 4px solid var(--mio-background);
+    --style-border-always: 1px solid var(--mio-card-border);
+    --mio-white-acrylic1: #fefeff !important;
+    --mio-white-acrylic2: #fcfdff !important;
+    --mio-black-acrylic2: #08080a !important;
+    --mio-black-acrylic1: #0b0b0e !important;
+}
+
+[data-theme="light"] {
+    --mio-theme: #3b70fc;
+    --mio-theme-op: #4259ef23;
+    --mio-blue: #3b70fc;
+    --mio-red: #d8213c;
+    --mio-pink: #ff7c7c;
+    --mio-green: #57bd6a;
+    --mio-fontcolor: #363636;
+    --mio-background: #f7f9fe;
+    --mio-reverse: #000;
+    --mio-maskbg: rgba(255, 255, 255, 0.6);
+    --mio-maskbgdeep: rgba(255, 255, 255, 0.85);
+    --mio-hovertext: var(--mio-theme);
+    --mio-ahoverbg: #f7f7fa;
+    --mio-lighttext: var(--mio-main);
+    --mio-secondtext: rgba(60, 60, 67, 0.6);
+    --mio-scrollbar: rgba(60, 60, 67, 0.4);
+    --mio-card-btn-bg: #edf0f7;
+    --mio-post-blockquote-bg: #fafcff;
+    --mio-post-tabs-bg: #f2f5f8;
+    --mio-secondbg: #edf0f7;
+    --mio-shadow-nav: 0 5px 12px -5px rgba(102, 68, 68, 0.05);
+    --mio-card-bg: #fff;
+    --mio-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
+    --mio-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
+    --mio-card-border: #c0c6d8;
+}
+
+[data-theme="dark"] {
+    --mio-theme: #0084ff;
+    --mio-theme-op: #0084ff23;
+    --mio-blue: #0084ff;
+    --mio-red: #ff3842;
+    --mio-pink: #ff7c7c;
+    --mio-green: #57bd6a;
+    --mio-fontcolor: #f7f7fa;
+    --mio-background: #18171d;
+    --mio-reverse: #fff;
+    --mio-maskbg: rgba(0, 0, 0, 0.6);
+    --mio-maskbgdeep: rgba(0, 0, 0, 0.85);
+    --mio-hovertext: #0a84ff;
+    --mio-ahoverbg: #fff;
+    --mio-lighttext: #f2b94b;
+    --mio-secondtext: #a1a2b8;
+    --mio-scrollbar: rgba(200, 200, 223, 0.4);
+    --mio-card-btn-bg: #30343f;
+    --mio-post-blockquote-bg: #000;
+    --mio-post-tabs-bg: #121212;
+    --mio-secondbg: #30343f;
+    --mio-shadow-nav: 0 5px 20px 0px rgba(28, 28, 28, 0.4);
+    --mio-card-bg: #1d1b26;
+    --mio-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
+    --mio-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
+    --mio-card-border: #42444a;
+}
