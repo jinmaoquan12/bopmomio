@@ -1,0 +1,96 @@
+#page:has(#null_page) {
+  border: 0;
+  box-shadow: none !important;
+  padding: 0 !important;
+  background: transparent !important;
+}
+#web_bg ~ .page:has(#null_page) {
+  background: var(--card-bg);
+}
+/* page背景调整 */
+
+.null-content.null-content-item.nullPage {
+  height: 19rem;
+  color: var(--null-white);
+  overflow: hidden;
+  margin-top: 0;
+  border-radius: 12px;
+  border: var(--style-border-always);
+  box-shadow: var(--null-shadow-border);
+}
+.null-content-item .null-card-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+}
+.null-content-item .null-content-item-tips {
+  opacity: .8;
+  font-size: .6rem;
+  margin-bottom: .5rem;
+}
+.null-content-item .null-card-content .null-content-item-title {
+  margin-bottom: .5rem;
+}
+.null-content-item .null-content-item-title {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1;
+}
+.null-content-item .null-content-bottom {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.null-content-item .null-content-bottom .null-tips {
+  font-weight: bold;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.null-content-item .null-card-content .null-change-button-group .null-change-button {
+  height: 40px;
+  width: auto;
+  padding: 0 22px;
+  border-radius: 20px;
+  justify-content: center;
+  background: var(--null-white);
+  color: var(--null-black);
+  display: flex;
+  align-items: center;
+  transition: .3s;
+  cursor: pointer;
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  transform: translateZ(0);
+  box-shadow: 0 8px 16px -4px var(--null-black-op);
+}
+.null-content-item .null-card-content .null-change-button-group .null-change-button i {
+  margin-right: 4px;
+  font-weight: bold;
+}
+#page:has(#null_page) .null-content-item .null-card-content .null-change-button-group .null-change-button:hover {
+  background: var(--null-blue);
+  color: var(--null-white);
+}
+
+@media screen and (max-width: 768px) {
+  .null-content-item .null-card-content {
+    padding: 1rem 1rem;
+  }
+  .null-content-item .null-card-content .null-change-button-group .null-change-button {
+    width: 60px;
+  }
+  .null-content-item .null-card-content .null-change-button-group .null-change-button i {
+    margin-right: -3px;
+  }
+  .null-content-item .null-card-content .null-change-button-group .null-change-button-text {
+    display: none;
+  }
+}
+/* 响应式 */
+
+/* null-page顶部样式 */
