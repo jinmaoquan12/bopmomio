@@ -1,3 +1,3 @@
-var posts=["2023/07/03/hello-world/","2024/04/03/为zhenxun-bot增加chatgpt功能/","2023/07/03/测试/","2023/07/30/月夜/"];function toRandomPost(){
+var posts=["2024/04/03/为zhenxun-bot增加chatgpt功能/","2023/07/30/月夜/","2023/07/03/hello-world/","2023/07/03/测试/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
