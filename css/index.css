@@ -10377,12 +10377,10 @@ h1.page-title + .tag-cloud-list {
 }
 #post-comment .comment-head .comment-switch {
   display: inline-block;
-  float: right;
-  margin: 2px auto 0;
-  padding: 4px 16px;
-  width: max-content;
-  border-radius: 8px;
-  background: #f6f8fa;
+  vertical-align: middle;
+}
+#post-comment .comment-head .comment-switch > span {
+  display: none;
 }
 #post-comment .comment-head .comment-switch .first-comment {
   color: #425aef;
@@ -16333,9 +16331,15 @@ li.card-category-list-item {
   transform: rotate(360deg);
 }
 #vcomment textarea {
-  background: url("/img/comment_bg.png") 100% 100% no-repeat;
+  background: url("/bopmomio/img/comment_bg.png") 100% 100% no-repeat;
 }
 #vcomment textarea:focus {
+  background-image: none;
+}
+#waline-wrap textarea {
+  background: url("/bopmomio/img/comment_bg.png") 100% 100% no-repeat;
+}
+#waline-wrap textarea:focus {
   background-image: none;
 }
 .fireworks {
@@ -19395,9 +19399,6 @@ p.p.gray {
   background: var(--anzhiyu-card-bg);
   -webkit-box-shadow: none;
   box-shadow: none;
-}
-[data-theme='dark'] #post-comment .comment-switch {
-  background: #2c2c2c !important;
 }
 [data-theme='dark'] #post-comment .comment-switch #switch-btn {
   filter: brightness(0.8);
